@@ -1,4 +1,4 @@
-module morbot
+module mfusebot
 
 go 1.21.0
 
