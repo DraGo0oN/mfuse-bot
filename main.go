@@ -61,9 +61,9 @@ func main() {
 
 	// Bot parameters
 	var (
-		TOKEN     = os.Getenv("TOKEN")
-		CLIENT_ID = os.Getenv("CLIENT_ID")
-		GUILD_ID  = os.Getenv("GUILD_ID")
+		TOKEN     = os.Getenv("TOKEN")     // get token from .env
+		CLIENT_ID = os.Getenv("CLIENT_ID") // get bot client id from .env
+		GUILD_ID  = os.Getenv("GUILD_ID")  // get guild id from .env
 	)
 
 	s, err = discordgo.New("Bot " + TOKEN)
@@ -153,13 +153,10 @@ var start time.Time
 var elapsed time.Duration
 
 func morfuse(script string) string {
-	// compile and execute the script using the Morfuse executable
 	start = time.Now() // get current time
 	os.Setenv("LD_LIBRARY_PATH", "morfuse")
-	cmd := exec.Command("morfuse/mfuse", script)
-
-	// Redirect the command's output to stdout
-	out := catchOutput(cmd)
+	cmd := exec.Command("morfuse/mfuse", script) // compile and execute the script using the Morfuse executable
+	out := catchOutput(cmd)                      // get output
 	return out
 }
 
