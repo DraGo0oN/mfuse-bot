@@ -1,6 +1,7 @@
 # MfuseBot
-
 This is a simple Discord bot to test your MOHAA Morphuse scripts on.
+
+It depends on: [Morfuse](https://github.com/morfuse/morfuse)
 
 ![Demo GIF](https://i.ibb.co/MN1PZ9w/demo.gif)
 ## 🛠️ Installation Steps:
