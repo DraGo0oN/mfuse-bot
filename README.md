@@ -6,10 +6,10 @@ It depends on: [Morfuse](https://github.com/morfuse/morfuse)
 ![Demo GIF](https://i.ibb.co/MN1PZ9w/demo.gif)
 ## 🛠️ Installation Steps:
 
-This project is [hosted on github](https://github.com/DraGo0oN/mfuse-bot). You can clone this project directly using this command:
+This project is [hosted on github](https://github.com/ysdragon/mfuse-bot). You can clone this project directly using this command:
 
 ```
-git clone https://github.com/DraGo0oN/mfuse-bot
+git clone https://github.com/ysdragon/mfuse-bot
 ```
 
 Use go mod tidy to install/update all the dependencies:
@@ -42,14 +42,14 @@ Configuration is done via `.env`:
 # discord bot token
 TOKEN=<your discord bot token>
 # bot client id
-CLIENT_ID=<your discord bot client it>
+CLIENT_ID=<your discord bot client id>
 # guild id (server id)
 GUILD_ID=<your server id>
 ```
 
 # Contributing
 Public contributions are welcome!  
-You can create a [new issue](https://github.com/DraGo0oN/mfuse-bot/issues/new) for bugs, or feel free to open a [pull request](https://github.com/DraGo0oN/mfuse-bot/pulls) for any and all your changes or work-in-progress features.
+You can create a [new issue](https://github.com/ysdragon/mfuse-bot/issues/new) for bugs, or feel free to open a [pull request](https://github.com/ysdragon/mfuse-bot/pulls) for any and all your changes or work-in-progress features.
 
 ## License
 
